@@ -1,3 +1,8 @@
+* {
+  touch-action: manipulation; /* Ensures touch events work for drag-and-drop */
+  user-select: none; /* Prevents text selection during drag */
+}
+
 .App {
   text-align: center;
 }
