@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useAppContext } from "../hooks/Context";
-import { useState } from "react";
 export default function Navbar() {
   return (
     <nav>
@@ -15,7 +13,6 @@ export default function Navbar() {
               View Task
             </Link>
           </li>
-          
         </ul>
       </div>
     </nav>
